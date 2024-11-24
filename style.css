@@ -1,0 +1,41 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 1em;
+}
+
+#quiz, #result {
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#answers button {
+  display: block;
+  margin: 5px auto;
+  width: 80%;
+}
+    
